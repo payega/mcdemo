@@ -23,8 +23,6 @@ public class Example {
 
         list.add("Congratulations, your application is up and running, again");
 
-        list.add("Congratulations, your application is up and running");
-
         return Response.ok(list.toString()).build();
     }
 
